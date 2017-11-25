@@ -28,7 +28,7 @@ public class TextReaderTest {
     public void readFileTest() throws IncorrectFileException {
         String filename = "in/testFileForReader.txt";
         String result = textReader.readFile(filename);
-        String expected = "    It's a test file for reader.    Bye.";
+        String expected = "\tIt's a test file for reader.\n\tBye.\n";
         Assert.assertEquals(result, expected);
     }
 }
