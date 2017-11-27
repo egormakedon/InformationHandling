@@ -10,16 +10,16 @@ import by.makedon.informationhandling.type.TextType;
 public class Parser {
     private Handler paragraphHandler;
     private Handler sentenceHandler;
-    private Component text;
+    private Component textTool;
 
     public Parser() {
         sentenceHandler = new SentenceHandler();
         paragraphHandler = new ParagraphHandler(sentenceHandler);
-        text = new TextTool(TextType.TEXT);
+        textTool = new TextTool(TextType.TEXT);
     }
 
     public Component parse(String data, int i, int j) {
-        paragraphHandler.parse(text, data, i, j);
-        return text;
+        paragraphHandler.parse(textTool, data, i, j);
+        return textTool;
     }
 }
