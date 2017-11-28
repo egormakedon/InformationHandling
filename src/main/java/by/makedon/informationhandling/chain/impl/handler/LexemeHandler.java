@@ -33,7 +33,7 @@ public class LexemeHandler implements Handler {
             String lexeme = lexemeMatcher.group();
             lexemeList.add(lexeme);
 
-            if (mathexpPattern.matcher(lexeme).matches()) {
+            if (mathexpPattern.matcher(lexeme).find()) {
                 isLexemeMathExpList.add(true);
             } else {
                 isLexemeMathExpList.add(false);
