@@ -1,5 +1,5 @@
 package by.makedon.informationhandling.type;
 
 public enum TextType {
-    TEXT, PARAGRAPH, SENTENCE
+    TEXT, PARAGRAPH, SENTENCE, LEXEME
 }

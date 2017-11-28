@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8acaf1a5-8701-467d-8448-a6958ed9c6a9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InformationHandling.iml" afterPath="$PROJECT_DIR$/InformationHandling.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/ParagraphHandler.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/ParagraphHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SentenceHandler.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SentenceHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/parser/Parser.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/parser/Parser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/main/Main.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/main/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/type/TextType.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/type/TextType.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,34 +32,47 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParagraphHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/ParagraphHandler.java">
+      <file leaf-file-name="SentenceHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SentenceHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+            <state relative-caret-position="432">
+              <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SentenceHandler.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SentenceHandler.java">
+      <file leaf-file-name="LexemeHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/LexemeHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="332">
+              <caret line="56" column="35" lean-forward="false" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#987#995#0" expanded="true" />
+                <element signature="e#1056#1065#0" expanded="true" />
+                <element signature="e#1847#1855#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/type/TextType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,16 +127,17 @@
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/texttype/Type.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/partoftext/Type.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/type/Type.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/type/TextType.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/type/SymbolType.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/texttool/TextTool.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/Component.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/leaf/Symbol.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/Handler.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/main/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/parser/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/ParagraphHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/parser/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SentenceHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/type/TextType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/LexemeHandler.java" />
       </list>
     </option>
   </component>
@@ -353,6 +364,15 @@
               <item name="informationhandling" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InformationHandling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="informationhandling" type="462c0819:PsiDirectoryNode" />
+              <item name="type" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -593,7 +613,7 @@
       <workItem from="1511616793778" duration="8081000" />
       <workItem from="1511800593325" duration="597000" />
       <workItem from="1511807656737" duration="82000" />
-      <workItem from="1511808456493" duration="12930000" />
+      <workItem from="1511808456493" duration="18592000" />
     </task>
     <servers />
   </component>
@@ -630,7 +650,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42193000" />
+    <option name="totallyTimeSpent" value="47855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1035" extended-state="6" />
@@ -855,13 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/LexemeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/WordHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -947,14 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/type/TextType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/type/SymbolType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -984,7 +989,7 @@
         <state relative-caret-position="324">
           <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -994,7 +999,7 @@
         <state relative-caret-position="378">
           <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1009,10 +1014,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/parser/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="252">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/ParagraphHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#505#506#0" expanded="false" />
+            <element signature="e#559#560#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1020,29 +1037,40 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/ParagraphHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/type/TextType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="54">
+          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SentenceHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="432">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/LexemeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="56" column="35" lean-forward="false" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#987#995#0" expanded="true" />
+            <element signature="e#1056#1065#0" expanded="true" />
+            <element signature="e#1847#1855#0" expanded="true" />
           </folding>
         </state>
       </provider>

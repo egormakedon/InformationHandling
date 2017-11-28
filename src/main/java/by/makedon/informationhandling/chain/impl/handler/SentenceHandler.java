@@ -9,10 +9,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class SentenceHandler implements Handler {
-    ////
+    private Handler lexemeHandler;
 
-    public SentenceHandler() {
-
+    public SentenceHandler(Handler lexemeHandler) {
+        this.lexemeHandler = lexemeHandler;
     }
 
     @Override
@@ -24,7 +24,7 @@ public class SentenceHandler implements Handler {
             String sentence = matcher.group();
             Component sentenceTool = new TextTool(TextType.SENTENCE);
             paragraphTool.add(sentenceTool);
-            //sentenceHandler.parse(sentenceTool, sentence, i, j);
+            lexemeHandler.parse(sentenceTool, sentence, i, j);
         }
     }
 }
