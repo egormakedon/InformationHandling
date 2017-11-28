@@ -3,7 +3,7 @@ package by.makedon.informationhandling.chain.impl.handler;
 import by.makedon.informationhandling.chain.Handler;
 import by.makedon.informationhandling.composite.Component;
 import by.makedon.informationhandling.composite.impl.texttool.TextTool;
-import by.makedon.informationhandling.type.Type;
+import by.makedon.informationhandling.type.TextType;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,7 +42,7 @@ public class LexemeHandler implements Handler {
 
         List<String> newLexemeList = mergeMathExpLexemes(lexemeList, isLexemeMathExpList);
         for (String lexeme : newLexemeList) {
-            Component lexemeTool = new TextTool(Type.LEXEME);
+            Component lexemeTool = new TextTool(TextType.LEXEME);
             sentenceTool.add(lexemeTool);
             wordExpressionHandler.parse(lexemeTool, lexeme, i, j);
         }

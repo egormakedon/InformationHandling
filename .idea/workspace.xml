@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8acaf1a5-8701-467d-8448-a6958ed9c6a9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/type/Type.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/type/TextType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/LexemeHandler.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/LexemeHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/ParagraphHandler.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/ParagraphHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SentenceHandler.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SentenceHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/WordExpressionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/WordExpressionHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/parser/Parser.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/parser/Parser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/leaf/Symbol.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/leaf/Symbol.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/texttool/TextTool.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/texttool/TextTool.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,26 +34,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WordExpressionHandler.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WordExpressionHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/WordExpressionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="440">
+              <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -126,8 +123,8 @@
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/leaf/Symbol.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/parser/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SymbolHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/WordExpressionHandler.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/WordExpressionHandler.java" />
       </list>
     </option>
   </component>
@@ -604,7 +601,7 @@
       <workItem from="1511800593325" duration="597000" />
       <workItem from="1511807656737" duration="82000" />
       <workItem from="1511808456493" duration="19553000" />
-      <workItem from="1511877175160" duration="2507000" />
+      <workItem from="1511877175160" duration="7325000" />
     </task>
     <servers />
   </component>
@@ -641,7 +638,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51323000" />
+    <option name="totallyTimeSpent" value="56141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1035" extended-state="6" />
@@ -875,6 +872,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -902,8 +900,8 @@
           <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#501#502#0" expanded="false" />
-            <element signature="e#555#556#0" expanded="false" />
+            <element signature="e#505#506#0" expanded="false" />
+            <element signature="e#559#560#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -919,7 +917,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/type/Type.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/type/TextType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="55" lean-forward="false" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
@@ -950,21 +948,11 @@
         <state relative-caret-position="90">
           <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding>
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#1103#1111#0" expanded="true" />
-            <element signature="e#1172#1181#0" expanded="true" />
-            <element signature="e#1994#2002#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SymbolHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#1107#1115#0" expanded="true" />
+            <element signature="e#1176#1185#0" expanded="true" />
+            <element signature="e#2002#2010#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -985,23 +973,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/WordExpressionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SymbolHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/WordExpressionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,18 +1,18 @@
 package by.makedon.informationhandling.composite.impl.texttool;
 
 import by.makedon.informationhandling.composite.Component;
-import by.makedon.informationhandling.type.Type;
+import by.makedon.informationhandling.type.TextType;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class TextTool implements Component {
     private List<Component> textTool;
-    private Type type;
+    private TextType textType;
 
-    public TextTool(Type type) {
+    public TextTool(TextType textType) {
         textTool = new ArrayList<Component>();
-        this.type = type;
+        this.textType = textType;
     }
 
     public void add(Component component) {

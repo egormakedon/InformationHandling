@@ -4,7 +4,7 @@ import by.makedon.informationhandling.chain.Handler;
 import by.makedon.informationhandling.chain.impl.handler.*;
 import by.makedon.informationhandling.composite.Component;
 import by.makedon.informationhandling.composite.impl.texttool.TextTool;
-import by.makedon.informationhandling.type.Type;
+import by.makedon.informationhandling.type.TextType;
 
 public class Parser {
     private Handler symbolHandler;
@@ -20,7 +20,7 @@ public class Parser {
         lexemeHandler = new LexemeHandler(wordExpressionHandler);
         sentenceHandler = new SentenceHandler(lexemeHandler);
         paragraphHandler = new ParagraphHandler(sentenceHandler);
-        textTool = new TextTool(Type.TEXT);
+        textTool = new TextTool(TextType.TEXT);
     }
 
     public Component parse(String data, int i, int j) {
