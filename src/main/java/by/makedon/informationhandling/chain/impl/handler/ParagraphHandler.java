@@ -3,7 +3,7 @@ package by.makedon.informationhandling.chain.impl.handler;
 import by.makedon.informationhandling.chain.Handler;
 import by.makedon.informationhandling.composite.Component;
 import by.makedon.informationhandling.composite.impl.texttool.TextTool;
-import by.makedon.informationhandling.type.TextType;
+import by.makedon.informationhandling.type.Type;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -22,7 +22,7 @@ public class ParagraphHandler implements Handler {
         Matcher matcher = paragraphPattern.matcher(data);
         while (matcher.find()) {
             String paragraph = matcher.group();
-            Component paragraphTool = new TextTool(TextType.PARAGRAPH);
+            Component paragraphTool = new TextTool(Type.PARAGRAPH);
             textTool.add(paragraphTool);
             sentenceHandler.parse(paragraphTool, paragraph, i, j);
         }
