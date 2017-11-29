@@ -1,10 +1,14 @@
 package by.makedon.informationhandling.calculator;
 
+import by.makedon.informationhandling.parser.ReversePolishNotationParser;
+
 public class ExpressionCalculator {
     public String calculate(String expression, int i, int j) {
         expression = replaceIncrementDecrementIJ(expression, i, j);
         expression = String.join("", expression.split("\\s"));
         expression = replaceNegativeNumbers(expression);
+        ReversePolishNotationParser parser = new ReversePolishNotationParser();
+        expression = parser.parse(expression);
         return null;
     }
 
