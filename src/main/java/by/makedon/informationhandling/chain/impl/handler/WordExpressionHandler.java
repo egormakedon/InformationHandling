@@ -20,6 +20,7 @@ public class WordExpressionHandler implements Handler {
         Pattern mathexpPattern = Pattern.compile(MATHEXP_REGEXP);
         if (mathexpPattern.matcher(data).find()) {
             data = replaceIncrementDecrementIJ(data, i, j);
+
         } else {
             String word = String.join("", data.split("\\s"));
             Component wordTool = new TextTool(TextType.WORD);
