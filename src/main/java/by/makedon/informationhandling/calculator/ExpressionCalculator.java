@@ -1,6 +1,6 @@
 package by.makedon.informationhandling.calculator;
 
-import by.makedon.informationhandling.interpreter.impl.InterpreterImpl;
+import by.makedon.informationhandling.interpreter.impl.Interpreter;
 import by.makedon.informationhandling.parser.ReversePolishNotationParser;
 
 public class ExpressionCalculator {
@@ -10,7 +10,7 @@ public class ExpressionCalculator {
         expression = replaceNegativeNumbers(expression);
         ReversePolishNotationParser parser = new ReversePolishNotationParser();
         expression = parser.parse(expression);
-        InterpreterImpl interpreter = new InterpreterImpl();
+        Interpreter interpreter = new Interpreter();
         return interpreter.calculate(expression).toString();
     }
 

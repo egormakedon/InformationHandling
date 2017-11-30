@@ -106,7 +106,7 @@ public class ReversePolishNotationParser {
                 result = Operation.BRACKET.getPriority();
                 break;
             default:
-                LOGGER.log(Level.ERROR, "Failed argument in expression", ReversePolishNotationParser.class);
+                LOGGER.log(Level.ERROR, "Failed argument in expression");
                 throw new RuntimeException();
         }
         return result;
