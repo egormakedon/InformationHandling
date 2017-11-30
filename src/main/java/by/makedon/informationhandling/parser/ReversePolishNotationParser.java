@@ -1,6 +1,5 @@
 package by.makedon.informationhandling.parser;
 
-import by.makedon.informationhandling.exception.UnknownException;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -35,7 +34,6 @@ public class ReversePolishNotationParser {
             if (String.valueOf(symbol).matches(NUMBER_REGEXP)) {
                 out.append(" ");
                 out.append(symbol);
-
                 int chainOfNumbers = 0;
                 for (int newIndex = index + 1; newIndex < expression.length(); newIndex++) {
                     char nextSymbol = expression.charAt(newIndex);
@@ -46,41 +44,39 @@ public class ReversePolishNotationParser {
                         break;
                     }
                 }
-                if (chainOfNumbers != 0) {
-                    index += chainOfNumbers;
-                }
+                index += chainOfNumbers;
             } else if (symbol == '(') {
                 stack.push(symbol);
             } else if (symbol == ')') {
-                while (!stack.isEmpty()) {
-                    char symbolFromStack = stack.getFirst();
+                while (true) {
+                    char symbolFromStack = stack.pop();
                     if (symbolFromStack == '(') {
-                        stack.pop();
                         break;
                     } else {
                         out.append(" ");
                         out.append(symbolFromStack);
-                        stack.pop();
                     }
                 }
             } else {
-                try {
-                    if (stack.isEmpty()) {
-                        stack.push(symbol);
-                    } else {
-                        int priorityOfSymbol = getPriority(symbol);
+                if (stack.isEmpty()) {
+                    stack.push(symbol);
+                } else {
+                    int priorityOfSymbol = getPriority(symbol);
+                    while (true) {
                         int priorityOfSymbolFromStack = getPriority(stack.getFirst());
 
                         if (priorityOfSymbol > priorityOfSymbolFromStack) {
                             stack.push(symbol);
+                            break;
                         } else {
                             out.append(" ");
                             out.append(stack.pop());
+                        }
+                        if (stack.isEmpty()) {
                             stack.push(symbol);
+                            break;
                         }
                     }
-                } catch (UnknownException e) {
-                    LOGGER.log(Level.WARN, e);
                 }
             }
         }
@@ -91,7 +87,7 @@ public class ReversePolishNotationParser {
         return out.toString().trim();
     }
 
-    private int getPriority(char operation) throws UnknownException {
+    private int getPriority(char operation) {
         int result;
         switch (operation) {
             case '/':
@@ -110,7 +106,8 @@ public class ReversePolishNotationParser {
                 result = Operation.BRACKET.getPriority();
                 break;
             default:
-                throw new UnknownException();
+                LOGGER.log(Level.ERROR, "Failed argument in expression", ReversePolishNotationParser.class);
+                throw new RuntimeException();
         }
         return result;
     }
