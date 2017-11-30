@@ -1,5 +1,5 @@
 package by.makedon.informationhandling.interpreter;
 
-public interface Expression {
+public interface Interpreter {
     void interpret();
 }

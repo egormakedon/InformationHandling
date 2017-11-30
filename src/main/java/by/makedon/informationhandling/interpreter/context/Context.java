@@ -4,21 +4,17 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Context {
-    private Deque<Number> values;
+    private Deque<Double> values;
 
     public Context() {
-        values = new ArrayDeque<Number>();
+        values = new ArrayDeque<Double>();
     }
 
-    public Number popValue() {
+    public Double popValue() {
         return values.pop();
     }
 
-    public void pushValue(Number value) {
+    public void pushValue(Double value) {
         values.push(value);
-    }
-
-    public void addLastValue(Number value) {
-        values.addLast(value);
     }
 }
