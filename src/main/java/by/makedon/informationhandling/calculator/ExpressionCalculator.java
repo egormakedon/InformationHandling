@@ -1,5 +1,6 @@
 package by.makedon.informationhandling.calculator;
 
+import by.makedon.informationhandling.interpreter.impl.InterpreterImpl;
 import by.makedon.informationhandling.parser.ReversePolishNotationParser;
 
 public class ExpressionCalculator {
@@ -9,7 +10,8 @@ public class ExpressionCalculator {
         expression = replaceNegativeNumbers(expression);
         ReversePolishNotationParser parser = new ReversePolishNotationParser();
         expression = parser.parse(expression);
-        return null;
+        InterpreterImpl interpreter = new InterpreterImpl();
+        return interpreter.calculate(expression).toString();
     }
 
     private String replaceIncrementDecrementIJ(String expression, int i, int j) {
