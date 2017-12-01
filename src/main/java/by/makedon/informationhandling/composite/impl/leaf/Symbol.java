@@ -16,4 +16,9 @@ public class Symbol implements Component {
     public void add(Component component) {
 
     }
+
+    @Override
+    public String toString() {
+        //
+    }
 }

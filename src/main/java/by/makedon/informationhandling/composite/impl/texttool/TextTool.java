@@ -18,4 +18,9 @@ public class TextTool implements Component {
     public void add(Component component) {
         textTool.add(component);
     }
+
+    @Override
+    public String toString() {
+
+    }
 }

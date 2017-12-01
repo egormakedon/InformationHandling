@@ -1,5 +1,6 @@
 package by.makedon.informationhandling.parser;
 
+import by.makedon.informationhandling.exception.InvalidArgumentException;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -107,7 +108,7 @@ public class ReversePolishNotationParser {
                 break;
             default:
                 LOGGER.log(Level.ERROR, "Failed argument in expression");
-                throw new RuntimeException();
+                throw new InvalidArgumentException();
         }
         return result;
     }
