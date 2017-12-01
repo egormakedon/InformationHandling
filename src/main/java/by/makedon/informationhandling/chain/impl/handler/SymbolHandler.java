@@ -10,15 +10,24 @@ import java.util.regex.Pattern;
 public class SymbolHandler implements Handler {
     @Override
     public void parse(Component wordExpressionTool, String data, int i, int j) {
-        final String PUNCTUATIONMARK_REGEXP = "[.:;,\\-()']";
+        final String PUNCTUATIONMARK_REGEXP = "[.:;,()']";
         Pattern punctuationMarkPattern = Pattern.compile(PUNCTUATIONMARK_REGEXP);
         String[] symbols = data.split("");
-        for (String symbol : symbols) {
+        for (int index = 0; index < symbols.length; index++) {
             Component symbolLeaf;
-            if (punctuationMarkPattern.matcher(symbol).matches()) {
-                symbolLeaf = new Symbol(symbol.charAt(0), TextType.PUNCTUATIONMARK);
+            if (punctuationMarkPattern.matcher(symbols[index]).matches()) {
+                symbolLeaf = new Symbol(symbols[index].charAt(0), TextType.PUNCTUATIONMARK);
             } else {
-                symbolLeaf = new Symbol(symbol.charAt(0), TextType.SYMBOL);
+                char symbol = symbols[index].charAt(0);
+                if (symbol == '-') {
+                    if (index == symbols.length - 1) {
+                        symbolLeaf = new Symbol(symbols[index].charAt(0), TextType.PUNCTUATIONMARK);
+                    } else {
+                        symbolLeaf = new Symbol(symbols[index].charAt(0), TextType.SYMBOL);
+                    }
+                } else {
+                    symbolLeaf = new Symbol(symbols[index].charAt(0), TextType.SYMBOL);
+                }
             }
             wordExpressionTool.add(symbolLeaf);
         }

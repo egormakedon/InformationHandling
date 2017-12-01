@@ -18,7 +18,12 @@ public class Symbol implements Component {
     }
 
     @Override
+    public TextType getTextType() {
+        return textType;
+    }
+
+    @Override
     public String toString() {
-        //
+        return String.valueOf(symbol);
     }
 }

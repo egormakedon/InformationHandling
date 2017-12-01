@@ -26,7 +26,7 @@ public class InterpreterRunner {
         for (Interpreter command : commandList) {
             command.interpret();
         }
-        return String.format("%(.2f)", context.popValue());
+        return String.format("%.2f", context.popValue());
     }
 
     private void parse(String expression) {

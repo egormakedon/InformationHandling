@@ -15,12 +15,36 @@ public class TextTool implements Component {
         this.textType = textType;
     }
 
+    @Override
     public void add(Component component) {
         textTool.add(component);
     }
 
     @Override
-    public String toString() {
+    public TextType getTextType() {
+        return textType;
+    }
 
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (Component component : textTool) {
+            if (component.getTextType() == TextType.PARAGRAPH) {
+                sb.append("   ");
+            }
+            if (component.getTextType() == TextType.LEXEME) {
+                sb.append(" ");
+            }
+            if (component.getTextType() == TextType.PUNCTUATIONMARK) {
+                if (component.toString().equals("-")) {
+                    sb.append(" ");
+                }
+            }
+            sb.append(component.toString());
+            if (component.toString().equals(".")) {
+                sb.append("\n");
+            }
+        }
+        return sb.toString();
     }
 }
