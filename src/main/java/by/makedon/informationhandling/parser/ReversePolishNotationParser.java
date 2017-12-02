@@ -13,27 +13,19 @@ public class ReversePolishNotationParser {
 
     private enum Operation {
         BRACKET(0), PLUS(1), MINUS(1), MULT(2), DIV(2);
-
         private int priority;
-
         Operation(int priority) {
             this.priority = priority;
         }
-
-        public int getPriority() {
+        int getPriority() {
             return priority;
         }
     }
 
-    public String parse(String expression, int i, int j) {
+    public String parse(String exp, int i, int j) {
+        String expression = exp;
         expression = replaceIncrementDecrementIJ(expression, i, j);
-        expression = String.join("", expression.split("\\s"));
         expression = replaceNegativeNumbers(expression);
-        /////////////
-
-
-
-
 
         final String NUMBER_REGEXP = "[0-9]";
         StringBuilder out = new StringBuilder();
@@ -94,6 +86,7 @@ public class ReversePolishNotationParser {
             out.append(" ");
             out.append(stack.pop());
         }
+        LOGGER.log(Level.INFO,"infix: " + exp + ", rpn: " + out.toString().trim());
         return out.toString().trim();
     }
 
@@ -112,6 +105,8 @@ public class ReversePolishNotationParser {
         expression = expression.replaceAll(DECREMENT_I_REGEXP, String.valueOf(decrementI));
         expression = expression.replaceAll(INCREMENT_J_REGEXP, String.valueOf(incrementJ));
         expression = expression.replaceAll(DECREMENT_J_REGEXP, String.valueOf(decrementJ));
+
+        expression = String.join("", expression.split("\\s"));
 
         return expression;
     }
@@ -160,7 +155,7 @@ public class ReversePolishNotationParser {
                 result = Operation.BRACKET.getPriority();
                 break;
             default:
-                LOGGER.log(Level.ERROR, "Failed argument in expression");
+                LOGGER.log(Level.FATAL, "Failed argument in expression");
                 throw new FatalArgumentException();
         }
         return result;
