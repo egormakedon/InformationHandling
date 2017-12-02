@@ -21,6 +21,11 @@ public class TextTool implements Component {
     }
 
     @Override
+    public List<Component> getTextTool() {
+        return textTool;
+    }
+
+    @Override
     public TextType getTextType() {
         return textType;
     }

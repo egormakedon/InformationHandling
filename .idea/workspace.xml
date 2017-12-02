@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8acaf1a5-8701-467d-8448-a6958ed9c6a9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/in/text.txt" afterPath="$PROJECT_DIR$/in/text.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SymbolHandler.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SymbolHandler.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/Component.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/Component.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/leaf/Symbol.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/leaf/Symbol.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/texttool/TextTool.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/texttool/TextTool.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/main/Main.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/main/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,11 +35,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="162">
+              <caret line="13" column="47" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="13" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SentenceCounterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/operation/SentenceCounterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SentenceCounter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/operation/SentenceCounter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/in/text.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SymbolHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SymbolHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testFileForCounter.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testFile/testFileForCounter.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="65" lean-forward="false" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -66,9 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/ParserInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/ParagraphParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/ParagraphHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/compositetool/CompositeTool.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/exception/IncorrectFileException.java" />
@@ -97,12 +154,6 @@
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/runner/Interpreter.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/impl/TerminalExpression.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/exception/InvalidArghumentException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/leaf/Symbol.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/Component.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/texttool/TextTool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/main/Main.java" />
-        <option value="$PROJECT_DIR$/in/text.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SymbolHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/exception/InvalidArgumentException.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/exception/FatalArgumentException.java" />
         <option value="$PROJECT_DIR$/src/test/java/readerTest/TextToolReaderTest.java" />
@@ -117,6 +168,15 @@
         <option value="$PROJECT_DIR$/src/test/java/interpreter/InterpreterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/compositeTest/CompositeTest.java" />
         <option value="$PROJECT_DIR$/testFile/testFileForChain.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/texttool/TextTool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/leaf/Symbol.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/Component.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/main/Main.java" />
+        <option value="$PROJECT_DIR$/in/text.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SymbolHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/operation/SentenceCounter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/operation/SentenceCounterTest.java" />
+        <option value="$PROJECT_DIR$/testFile/testFileForCounter.txt" />
       </list>
     </option>
   </component>
@@ -184,7 +244,7 @@
             <path>
               <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
               <item name="InformationHandling" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="in" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
@@ -219,7 +279,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="informationhandling" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="chain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
@@ -228,8 +288,80 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="informationhandling" type="462c0819:PsiDirectoryNode" />
+              <item name="chain" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InformationHandling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="1a9f42e2:ClassTreeNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="informationhandling" type="462c0819:PsiDirectoryNode" />
+              <item name="chain" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InformationHandling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="informationhandling" type="462c0819:PsiDirectoryNode" />
+              <item name="composite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InformationHandling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="informationhandling" type="462c0819:PsiDirectoryNode" />
+              <item name="composite" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InformationHandling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="informationhandling" type="462c0819:PsiDirectoryNode" />
+              <item name="composite" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="texttool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InformationHandling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="informationhandling" type="462c0819:PsiDirectoryNode" />
+              <item name="composite" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="texttool" type="462c0819:PsiDirectoryNode" />
+              <item name="TextTool" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InformationHandling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="informationhandling" type="462c0819:PsiDirectoryNode" />
+              <item name="operation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InformationHandling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="informationhandling" type="462c0819:PsiDirectoryNode" />
+              <item name="operation" type="462c0819:PsiDirectoryNode" />
+              <item name="SentenceCounter" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
@@ -250,16 +382,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="interpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="operation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
               <item name="InformationHandling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="interpreter" type="462c0819:PsiDirectoryNode" />
-              <item name="InterpreterTest" type="1a9f42e2:ClassTreeNode" />
+              <item name="testFile" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,7 +403,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Загрузки/epam3" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Загрузки/kek" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -294,7 +422,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.InterpreterTest">
+  <component name="RunManager" selected="TestNG.SentenceCounterTest.countTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -426,7 +554,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="RevPolishNotParserTest.replaceNegativeNumbersTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RevPolishNotParserTest.reversePolishNotationParseTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="parserTest.*" />
@@ -439,7 +567,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="parserTest" />
       <option name="MAIN_CLASS_NAME" value="parserTest.RevPolishNotParserTest" />
-      <option name="METHOD_NAME" value="replaceNegativeNumbersTest" />
+      <option name="METHOD_NAME" value="reversePolishNotationParseTest" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -458,10 +586,10 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="RevPolishNotParserTest.reversePolishNotationParseTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SentenceCounterTest.countTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="parserTest.*" />
+          <option name="PATTERN" value="operation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -469,9 +597,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="parserTest" />
-      <option name="MAIN_CLASS_NAME" value="parserTest.RevPolishNotParserTest" />
-      <option name="METHOD_NAME" value="reversePolishNotationParseTest" />
+      <option name="PACKAGE_NAME" value="operation" />
+      <option name="MAIN_CLASS_NAME" value="operation.SentenceCounterTest" />
+      <option name="METHOD_NAME" value="countTest" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -524,19 +652,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.RevPolishNotParserTest.replaceNegativeNumbersTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.RevPolishNotParserTest.reversePolishNotationParseTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.InterpreterTest.calculateTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.InterpreterTest" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.RevPolishNotParserTest.reversePolishNotationParseTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.InterpreterTest.calculateTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.InterpreterTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.SentenceCounterTest.countTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.InterpreterTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.SentenceCounterTest.countTest" />
         <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.InterpreterTest.calculateTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.RevPolishNotParserTest.reversePolishNotationParseTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.RevPolishNotParserTest.replaceNegativeNumbersTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.InterpreterTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.InterpreterTest.calculateTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.RevPolishNotParserTest.reversePolishNotationParseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -564,14 +692,11 @@
       <workItem from="1512119950589" duration="234000" />
       <workItem from="1512120210368" duration="5705000" />
       <workItem from="1512156331281" duration="715000" />
-      <workItem from="1512191769582" duration="6823000" />
+      <workItem from="1512191769582" duration="14860000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExpressionCalculatorTest_calculateTest - 2017.12.02 at 10h 03m 08s.xml">
-      <configuration name="ExpressionCalculatorTest.calculateTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ExpressionCalculatorTest_calculateTest - 2017.12.02 at 10h 05m 08s.xml">
       <configuration name="ExpressionCalculatorTest.calculateTest" configurationId="TestNG" />
     </history-entry>
@@ -599,12 +724,16 @@
     <history-entry file="RevPolishNotParserTest_reversePolishNotationParseTest - 2017.12.02 at 10h 31m 18s.xml">
       <configuration name="RevPolishNotParserTest.reversePolishNotationParseTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SentenceCounterTest_countTest - 2017.12.02 at 17h 45m 51s.xml">
+      <configuration name="SentenceCounterTest.countTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115515000" />
+    <option name="totallyTimeSpent" value="123552000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="662" y="-4" width="1922" height="1043" extended-state="6" />
+    <frame x="0" y="-4" width="1920" height="1035" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -619,7 +748,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22198506" sideWeight="0.495585" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22198506" sideWeight="0.495585" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -643,14 +772,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="55" />
+      <option name="time" value="61" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/entity/Expression.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/entity/Lexeme.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/entity/Paragraph.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/entity/Sentence.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/entity/Symbol.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/entity/Word.java" />
@@ -733,13 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/LexemeHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -753,21 +872,6 @@
         <state relative-caret-position="198">
           <caret line="19" column="68" lean-forward="false" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SymbolHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/in/text.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -844,7 +948,7 @@
         <state relative-caret-position="972">
           <caret line="88" column="83" lean-forward="false" selection-start-line="88" selection-start-column="83" selection-end-line="88" selection-end-column="83" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -872,20 +976,12 @@
         <state relative-caret-position="699">
           <caret line="40" column="52" lean-forward="false" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#367#368#0" expanded="false" />
+            <element signature="e#425#426#0" expanded="false" />
+            <element signature="e#467#468#0" expanded="false" />
+            <element signature="e#496#497#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/leaf/Symbol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,26 +1008,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testFile/testFileForChain.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/texttool/TextTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -949,7 +1029,7 @@
         <state relative-caret-position="414">
           <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -959,19 +1039,103 @@
         <state relative-caret-position="359">
           <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#358#359#0" expanded="false" />
+            <element signature="e#411#412#0" expanded="false" />
+            <element signature="e#453#454#0" expanded="false" />
+            <element signature="e#487#488#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/leaf/Symbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/texttool/TextTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="162">
+          <caret line="13" column="47" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="13" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/in/text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SymbolHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/operation/SentenceCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/operation/SentenceCounterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/testFileForCounter.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="65" lean-forward="false" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
           <folding />
         </state>
       </provider>

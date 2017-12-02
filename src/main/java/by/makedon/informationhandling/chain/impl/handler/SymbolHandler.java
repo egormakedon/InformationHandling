@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 public class SymbolHandler implements Handler {
     @Override
     public void parse(Component wordExpressionTool, String data, int i, int j) {
-        final String PUNCTUATIONMARK_REGEXP = "[.:;,()']";
+        final String PUNCTUATIONMARK_REGEXP = "[.:;()]";
         Pattern punctuationMarkPattern = Pattern.compile(PUNCTUATIONMARK_REGEXP);
         String[] symbols = data.split("");
         for (int index = 0; index < symbols.length; index++) {
@@ -19,7 +19,7 @@ public class SymbolHandler implements Handler {
                 symbolLeaf = new Symbol(symbols[index].charAt(0), TextType.PUNCTUATIONMARK);
             } else {
                 char symbol = symbols[index].charAt(0);
-                if (symbol == '-') {
+                if (symbol == '-' || symbol == ',') {
                     if (index == symbols.length - 1) {
                         symbolLeaf = new Symbol(symbols[index].charAt(0), TextType.PUNCTUATIONMARK);
                     } else {

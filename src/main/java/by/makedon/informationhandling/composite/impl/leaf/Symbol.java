@@ -3,6 +3,9 @@ package by.makedon.informationhandling.composite.impl.leaf;
 import by.makedon.informationhandling.composite.Component;
 import by.makedon.informationhandling.type.TextType;
 
+import java.io.UncheckedIOException;
+import java.util.List;
+
 public class Symbol implements Component {
     private char symbol;
     private TextType textType;
@@ -15,6 +18,11 @@ public class Symbol implements Component {
     @Override
     public void add(Component component) {
 
+    }
+
+    @Override
+    public List<Component> getTextTool() {
+        return null;
     }
 
     @Override
