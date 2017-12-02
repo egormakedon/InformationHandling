@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8acaf1a5-8701-467d-8448-a6958ed9c6a9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/parser/ReversePolishNotationParser.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/parser/ReversePolishNotationParser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/interpreter/InterpreterTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/context/Context.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/context/Context.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/runner/InterpreterRunner.java" afterPath="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/runner/InterpreterRunner.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,36 +31,7 @@
     <favorites_list name="InformationHandling" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ReversePolishNotationParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/parser/ReversePolishNotationParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="88" column="83" lean-forward="false" selection-start-line="88" selection-start-column="83" selection-end-line="88" selection-end-column="83" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RevPolishNotParserTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/parserTest/RevPolishNotParserTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="40" column="48" lean-forward="false" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/entity/Sentence.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/entity/Symbol.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/entity/Word.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/ParserInterface.java" />
@@ -114,12 +87,10 @@
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/impl/NonterminalExpression.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/Expression.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/impl/InterpreterImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/context/Context.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/impl/Interpreter.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/runner/Interpreter.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/impl/TerminalExpression.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/exception/InvalidArghumentException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/runner/InterpreterRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/leaf/Symbol.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/Component.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/composite/impl/texttool/TextTool.java" />
@@ -135,6 +106,9 @@
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/calculator/ExpressionCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/parser/ReversePolishNotationParser.java" />
         <option value="$PROJECT_DIR$/src/test/java/parserTest/RevPolishNotParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/context/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/runner/InterpreterRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/interpreter/InterpreterTest.java" />
       </list>
     </option>
   </component>
@@ -202,6 +176,11 @@
             <path>
               <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
               <item name="InformationHandling" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InformationHandling" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -224,25 +203,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="informationhandling" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InformationHandling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="informationhandling" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InformationHandling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="informationhandling" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="ExpressionCalculator" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
@@ -261,24 +221,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="informationhandling" type="462c0819:PsiDirectoryNode" />
               <item name="composite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InformationHandling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="informationhandling" type="462c0819:PsiDirectoryNode" />
-              <item name="interpreter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InformationHandling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="informationhandling" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="InformationHandling" type="b2602c69:ProjectViewProjectNode" />
@@ -326,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RevPolishNotParserTest.reversePolishNotationParseTest">
+  <component name="RunManager" selected="TestNG.InterpreterTest.calculateTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -388,6 +330,38 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="calculatorTest" />
       <option name="MAIN_CLASS_NAME" value="calculatorTest.ExpressionCalculatorTest" />
+      <option name="METHOD_NAME" value="calculateTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="InterpreterTest.calculateTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="interpreter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="InformationHandling" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="interpreter" />
+      <option name="MAIN_CLASS_NAME" value="interpreter.InterpreterTest" />
       <option name="METHOD_NAME" value="calculateTest" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -503,33 +477,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="TextReaderTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="InformationHandling" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="readerTest.TextReaderTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -564,19 +511,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.TextReaderTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.ExpressionCalculatorTest.calculateTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.RevPolishNotParserTest.replaceIncrementDecrementIJTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.RevPolishNotParserTest.replaceNegativeNumbersTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.RevPolishNotParserTest.reversePolishNotationParseTest" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.ExpressionCalculatorTest.calculateTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.RevPolishNotParserTest.replaceIncrementDecrementIJTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.RevPolishNotParserTest.replaceNegativeNumbersTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.RevPolishNotParserTest.reversePolishNotationParseTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.InterpreterTest.calculateTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.RevPolishNotParserTest.reversePolishNotationParseTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.RevPolishNotParserTest.replaceNegativeNumbersTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.RevPolishNotParserTest.replaceIncrementDecrementIJTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.ExpressionCalculatorTest.calculateTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.TextReaderTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.InterpreterTest.calculateTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.RevPolishNotParserTest.reversePolishNotationParseTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.RevPolishNotParserTest.replaceNegativeNumbersTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.RevPolishNotParserTest.replaceIncrementDecrementIJTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.ExpressionCalculatorTest.calculateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -604,14 +551,11 @@
       <workItem from="1512119950589" duration="234000" />
       <workItem from="1512120210368" duration="5705000" />
       <workItem from="1512156331281" duration="715000" />
-      <workItem from="1512191769582" duration="4377000" />
+      <workItem from="1512191769582" duration="5346000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExpressionCalculatorTest_calculateTest - 2017.12.02 at 10h 01m 37s.xml">
-      <configuration name="ExpressionCalculatorTest.calculateTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ExpressionCalculatorTest_calculateTest - 2017.12.02 at 10h 02m 56s.xml">
       <configuration name="ExpressionCalculatorTest.calculateTest" configurationId="TestNG" />
     </history-entry>
@@ -624,6 +568,12 @@
     <history-entry file="ExpressionCalculatorTest_calculateTest - 2017.12.02 at 10h 06m 09s.xml">
       <configuration name="ExpressionCalculatorTest.calculateTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="InterpreterTest_calculateTest - 2017.12.02 at 10h 46m 51s.xml">
+      <configuration name="InterpreterTest.calculateTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InterpreterTest_calculateTest - 2017.12.02 at 10h 47m 03s.xml">
+      <configuration name="InterpreterTest.calculateTest" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="RevPolishNotParserTest_replaceIncrementDecrementIJTest - 2017.12.02 at 10h 17m 40s.xml">
       <configuration name="RevPolishNotParserTest.replaceIncrementDecrementIJTest" configurationId="TestNG" />
     </history-entry>
@@ -633,19 +583,15 @@
     <history-entry file="RevPolishNotParserTest_reversePolishNotationParseTest - 2017.12.02 at 10h 30m 56s.xml">
       <configuration name="RevPolishNotParserTest.reversePolishNotationParseTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TextReaderTest - 2017.12.02 at 08h 27m 36s.xml">
-      <configuration name="TextReaderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TextReaderTest_readFileTest - 2017.11.27 at 22h 09m 07s.xml">
-      <configuration name="TextReaderTest.readFileTest" configurationId="TestNG" />
+    <history-entry file="RevPolishNotParserTest_reversePolishNotationParseTest - 2017.12.02 at 10h 31m 18s.xml">
+      <configuration name="RevPolishNotParserTest.reversePolishNotationParseTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113069000" />
+    <option name="totallyTimeSpent" value="114038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="662" y="-4" width="1922" height="1043" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -656,11 +602,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32070437" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33554083" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33554083" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22198506" sideWeight="0.495585" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22198506" sideWeight="0.495585" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -689,13 +635,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/handler/SentenceHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -740,7 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/log.log" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/type/SymbolType.java" />
     <entry file="file://$PROJECT_DIR$/InformationHandling.iml">
       <provider selected="true" editor-type-id="text-editor">
@@ -787,20 +725,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/exception/UnknownException.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/impl/NonterminalExpression.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/context/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/Interpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/impl/TerminalExpression.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/chain/impl/parser/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -836,13 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/runner/InterpreterRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-746">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -967,10 +884,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log/log.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/parser/ReversePolishNotationParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
+        <state relative-caret-position="972">
           <caret line="88" column="83" lean-forward="false" selection-start-line="88" selection-start-column="83" selection-end-line="88" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/Interpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/context/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/makedon/informationhandling/interpreter/runner/InterpreterRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -979,14 +931,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/parserTest/RevPolishNotParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="40" column="48" lean-forward="false" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+        <state relative-caret-position="699">
+          <caret line="40" column="52" lean-forward="false" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#367#368#0" expanded="true" />
             <element signature="e#425#426#0" expanded="true" />
             <element signature="e#467#468#0" expanded="true" />
             <element signature="e#496#497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/interpreter/InterpreterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
           </folding>
         </state>
       </provider>

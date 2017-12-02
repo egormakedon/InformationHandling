@@ -21,8 +21,8 @@ public class InterpreterRunner {
         context = new Context();
     }
 
-    public String calculate(String expression) {
-        parse(expression);
+    public String calculate(String rpn) {
+        parse(rpn);
         for (Interpreter command : commandList) {
             command.interpret();
         }
@@ -88,7 +88,7 @@ public class InterpreterRunner {
                         }
                     });
                 } else {
-                    LOGGER.log(Level.ERROR, "Failed argument in expression");
+                    LOGGER.log(Level.FATAL, "Failed argument in expression");
                     throw new FatalArgumentException();
                 }
         }
