@@ -39,9 +39,11 @@ public class TextReader {
                 sb.delete(0, sb.length());
                 sb.append(String.join("\t", paragraphs));
             } catch (FileNotFoundException e) {
-                LOGGER.log(Level.WARN,"unknown error", e);
+                throw new IncorrectFileException(e);
             } finally {
-                if (scanner != null) scanner.close();
+                if (scanner != null) {
+                    scanner.close();
+                }
             }
             LOGGER.log(Level.INFO, filename + " has read correctly");
             return sb.toString();

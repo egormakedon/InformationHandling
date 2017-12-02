@@ -1,6 +1,6 @@
 package by.makedon.informationhandling.interpreter.runner;
 
-import by.makedon.informationhandling.exception.InvalidArgumentException;
+import by.makedon.informationhandling.exception.FatalArgumentException;
 import by.makedon.informationhandling.interpreter.Interpreter;
 import by.makedon.informationhandling.interpreter.context.Context;
 import org.apache.logging.log4j.Level;
@@ -89,7 +89,7 @@ public class InterpreterRunner {
                     });
                 } else {
                     LOGGER.log(Level.ERROR, "Failed argument in expression");
-                    throw new InvalidArgumentException();
+                    throw new FatalArgumentException();
                 }
         }
     }

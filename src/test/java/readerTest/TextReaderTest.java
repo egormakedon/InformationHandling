@@ -1,3 +1,5 @@
+package readerTest;
+
 import by.makedon.informationhandling.exception.IncorrectFileException;
 import by.makedon.informationhandling.reader.TextReader;
 import org.testng.Assert;
@@ -5,11 +7,11 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TextToolReaderTest {
+public class TextReaderTest {
     private TextReader textReader;
 
     @BeforeTest
-    public void set() {
+    public void init() {
         textReader = new TextReader();
     }
 
@@ -26,7 +28,7 @@ public class TextToolReaderTest {
 
     @Test
     public void readFileTest() throws IncorrectFileException {
-        String filename = "in/testFileForReader.txt";
+        String filename = "testFile/testFileForReader.txt";
         String result = textReader.readFile(filename);
         String expected = "\tIt's a test file for reader.\n\tBye.\n";
         Assert.assertEquals(result, expected);
