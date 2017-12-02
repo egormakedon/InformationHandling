@@ -21,6 +21,11 @@ public class TextTool implements Component {
     }
 
     @Override
+    public void remove(Component component) {
+        textTool.remove(component);
+    }
+
+    @Override
     public List<Component> getTextTool() {
         return textTool;
     }

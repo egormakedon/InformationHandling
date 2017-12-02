@@ -21,6 +21,11 @@ public class Symbol implements Component {
     }
 
     @Override
+    public void remove(Component component) {
+
+    }
+
+    @Override
     public List<Component> getTextTool() {
         return null;
     }

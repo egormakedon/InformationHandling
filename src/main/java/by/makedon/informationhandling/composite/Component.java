@@ -6,6 +6,7 @@ import java.util.List;
 
 public interface Component {
     void add(Component component);
+    void remove(Component component);
     String toString();
     TextType getTextType();
     List<Component> getTextTool();
